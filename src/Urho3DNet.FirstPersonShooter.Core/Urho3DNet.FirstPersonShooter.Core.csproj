@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net471</TargetFramework>
+    <RootNamespace>Urho3DNet.FirstPersonShooter</RootNamespace>
+    <UserSecretsId>9c55c349-47cc-4c0a-92f5-7d1c41b26c17</UserSecretsId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Platform)'=='AnyCPU'">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AdaptiveCombatRifle.Urho3DNet.Asset" Version="0.0.1" />
+    <PackageReference Include="CargoBay.Urho3DNet.Asset" Version="0.0.2" />
+    <PackageReference Include="Mixamo.Swat.Urho3DNet.Asset" Version="0.0.1" />
+    <PackageReference Include="Mixamo.XBot.Urho3DNet.Asset" Version="0.0.2" />
+    <PackageReference Include="Mixamo.YBot.Urho3DNet.Asset" Version="0.0.2" />
+    <PackageReference Include="unofficial.Urho3DNet" Version="0.3.7.268-alpha045e7bc" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Urho3DNet.FirstPersonShooter\Urho3DNet.FirstPersonShooter.csproj" />
+  </ItemGroup>
+
+</Project>
